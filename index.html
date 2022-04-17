@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>鸟</title>
+        <style>
+            body
+            {
+                background: #b8e396;
+                margin: 20px;
+            }
+            #myCanvas
+            {
+                background: rgb(100, 160, 190);
+                display: block;
+                margin: 0 auto
+            }
+            .controls
+            {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>拓扑vicsek模型</h2>
+        <input id='animateButton' class='controls' type='button' value='开始' />
+        <hr/>
+        <p>
+            <!-- 鸟群数量：
+            <input id="numBoids" class="controls" type="search" value="20"/> -->
+        </p>
+        <canvas id="myCanvas" width="2000" height="2000" center="center"></canvas>  <!-- 修改width和height，调整空间大小； -->
+        <script src="boid.js"></script>
+    </body>
+    </html>
