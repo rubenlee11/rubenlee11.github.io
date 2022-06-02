@@ -9010,6 +9010,6 @@ const
             3.2,
         ],
         OUT_SPECTRUM: []
-    };
+    }
 
 export {data};
